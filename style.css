@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
+
+body{
+    min-height: 100vh;
+}
 /*<-------------------- main-nav ------------------------->*/
 .main-nav{
     color: #666666;
@@ -56,3 +60,64 @@
     text-decoration: underline;
 }
 
+/*<-----------------------google-content--------------------------->*/
+
+.google-content{
+    text-align: center;
+    height: auto; 
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    align-content: center;
+}
+
+.google-content .googleimg{
+    width: 20%;
+    position: relative;
+}
+
+.search input{
+    width: 600px;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    padding: 0 40px;
+    outline: none;
+    position: relative;
+    border-radius: 20px;   
+}
+
+.btn{
+    margin: 30px;
+}
+.btn button{
+    padding: 5px 25px;
+    outline: none;
+    opacity: 0.8;
+    color: #333;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn button:hover{
+    border: 1px solid #333;
+    background-color: #eaeaea;
+    color: black;
+    box-shadow: 1px 1px 1px black;
+}
+.google-content a{
+    text-decoration: none;
+}
+
+.search .mag{
+    position: fixed; 
+    left: 480px;
+    margin-top: 8px;
+}
+.search .mic{
+    position: absolute;
+    margin-top: 10px;
+    left:1030px;
+    height: 19px;
+}
